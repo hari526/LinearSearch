@@ -12,6 +12,6 @@ if __name__== "__main__":
     item = input( "what item do you want to search : ")
     isitFound = linearSearch(item,shopping)
     if isitFound:
-        print("Item is in the list")
+        print("Item is in the list !")
     else:
-        print("Item is not in the list")
+        print("Item is not in the list !")
